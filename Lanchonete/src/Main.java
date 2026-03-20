@@ -15,14 +15,24 @@ public class Main {
         ingredientesList.add("pao");
         ingredientesList.add("hamburguer");
         ingredientesList.add("bacon");
+        ingredientesList.add("banana");
+
+        Hamburguer Xburguer = new Hamburguer(07);
+        
+
+        System.out.println("R$" = Xburguer.getingredientes());
+
+        //Cliente cliente = new Cliente("marcos", "junior");
+       //Hamburguer hamburguer = new Hamburguer(ingredientesList);
+
+       // Pedido pedido1 = new Pedido (cliente, hamburguer);
+
+        //ingredientesList.remove("");
+        //System.out.println(ingredientesList);
 
 
-        Cliente cliente = new Cliente("marcos", "junior");
-        Hamburguer hamburguer = new Hamburguer(ingredientesList);
 
-        Pedido pedido1 = new Pedido (cliente, hamburguer);
 
-        System.out.println(hamburguer.getIngredientes());
 
 
     }

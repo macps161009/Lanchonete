@@ -6,6 +6,21 @@ public class Hamburguer {
 
     private ArrayList<String> ingredientes;
 
+    double precos;
+
+    public double getPrecos() {
+        return precos;
+    }
+
+    public void setPrecos(double precos) {
+        this.precos = precos;
+
+    }
+
+    public Hamburguer(double precos) {
+        this.precos = precos;
+    }
+
     public ArrayList<String> getIngredientes() {
         return ingredientes;
     }
@@ -19,4 +34,6 @@ public class Hamburguer {
 
 
     }
+
 }
+
