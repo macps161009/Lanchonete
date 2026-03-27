@@ -6,18 +6,10 @@ public class Hamburguer {
 
     private ArrayList<String> ingredientes;
 
-    double precos;
+    private double precos;
 
-    public double getPrecos() {
-        return precos;
-    }
-
-    public void setPrecos(double precos) {
-        this.precos = precos;
-
-    }
-
-    public Hamburguer(double precos) {
+    public Hamburguer(ArrayList<String> ingredientes, double precos) {
+        this.ingredientes = ingredientes;
         this.precos = precos;
     }
 
@@ -29,11 +21,18 @@ public class Hamburguer {
         this.ingredientes = ingredientes;
     }
 
-    public Hamburguer(ArrayList<String> ingredientes) {
-        this.ingredientes = ingredientes;
-
-
+    public double getPrecos() {
+        return precos;
     }
+
+    public void setPrecos(double precos) {
+        this.precos = precos;
+    }
+
+    public String gettudo(){
+        return precos + " " + ingredientes;
+    }
+
 
 }
 
